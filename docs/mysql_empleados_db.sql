@@ -37,6 +37,7 @@ CREATE VIEW empleado_depto_view AS
 INSERT INTO departamento(id, nombre) VALUES (1,'ADMINISTRACIÓN');
 INSERT INTO departamento(id, nombre) VALUES (2,'SISTEMAS');
 INSERT INTO departamento(id, nombre) VALUES (3,'MARKETING');
+INSERT INTO departamento(id, nombre) VALUES (4,'CONTABILIDAD');
 
 INSERT INTO empleado(nombre, apellidos, email, salario, departamento)
 VALUES ('Tony', 'Stark', 't.stark@test.com', 35000.00, 2);
